@@ -1,4 +1,4 @@
-FROM openjdk:8-jre
+FROM openjdk:11
 RUN mkdir -p /opt/mobileplan
 COPY ./target/mobileplan-0.0.1-SNAPSHOT.jar /opt/mobileplan/mobileplan.jar
 WORKDIR /opt/mobileplan
